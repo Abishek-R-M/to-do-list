@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600&display=swap');
+
+:root {
+    --background-color : #051367;
+    --input-color : #051367;
+    --text-box-color : #9DB2BF;
+    --button-color :#279EFF;
+}
+
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    background-color: #8FBDD3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+* {
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    background-color: var(--background-color);
+    background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
+    padding: 25px;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 17px 14px 22px 0px rgba(0,0,0,0.1);
+    opacity: 0.9;
+}
+
+.form input , button{
+    font-size: 18px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 6px ;
+    background-color: rgba(255, 255, 255 , 0.2);
+    border: 2px solid rgba(255, 255, 255 , 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.form {
+    margin-top: 25px;
+}
+
+/* .form button {
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 8px ;
+    background-color: rgba(255, 255, 255 , 0.2);
+    color: #fff;
+    backdrop-filter: blur(10px);
+    margin-left: 10px;
+    border: 2px solid rgba(255, 255, 255 , 0.6);
+} */
+
+button {
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #9DB2BF;
+    color: black;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    border-radius: 8px ;
+    background-color: rgba(255, 255, 255 , 0.2);
+    border: 2px solid rgba(255, 255, 255 , 0.6);
+    backdrop-filter: blur(10px);
+    width: auto;
+    padding: 0 12px 0 12px;
+    margin-top: 25px;
+}
+
+/* .TodoWrapper {
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+  } */
+
+.icon {
+    margin-right: 0.75rem;
+}
+
+p {
+    margin-right: 15px;
+}
+
+.icon:hover {
+    font-size: 20px;
+}
+
+.completed {
+    color: red;
+    text-decoration: line-through;
+}
+
